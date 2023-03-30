@@ -21,9 +21,9 @@ import (
 	"github.com/jackc/pgerrcode"
 	_ "github.com/jackc/pgx/v4/stdlib"
 
-	"github.com/golang-migrate/migrate/v4"
-	"github.com/golang-migrate/migrate/v4/database"
-	"github.com/golang-migrate/migrate/v4/database/multistmt"
+	"github.com/al-ship/migrate/v4"
+	"github.com/al-ship/migrate/v4/database"
+	"github.com/al-ship/migrate/v4/database/multistmt"
 )
 
 func init() {

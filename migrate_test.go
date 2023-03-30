@@ -10,9 +10,9 @@ import (
 	"strings"
 	"testing"
 
-	dStub "github.com/golang-migrate/migrate/v4/database/stub"
-	"github.com/golang-migrate/migrate/v4/source"
-	sStub "github.com/golang-migrate/migrate/v4/source/stub"
+	dStub "github.com/al-ship/migrate/v4/database/stub"
+	"github.com/al-ship/migrate/v4/source"
+	sStub "github.com/al-ship/migrate/v4/source/stub"
 )
 
 // sourceStubMigrations hold the following migrations:
